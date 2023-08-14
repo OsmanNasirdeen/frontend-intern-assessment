@@ -1,0 +1,203 @@
+.humberger-container {
+  display: none;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 17px;
+}
+#navbar {
+  margin-bottom: 100px;
+}
+
+#search-products-form {
+  display: none;
+  background: white;
+  height: 184px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  z-index: 10;
+}
+#search-products-form > input {
+  position: absolute;
+  top: 30px;
+  left: 27%;
+  left: 354px;
+  height: 48px;
+  width: 597px;
+  border: 1px solid var(--gray);
+  padding-left: 12px;
+  font-family: var(--casual-font);
+  font-size: var(--fs-16);
+  letter-spacing: 0.5px;
+}
+#search-products-form > input:focus {
+  outline: 1px solid var(--orange-color);
+}
+#btn-search > img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(26deg) brightness(109%)
+    contrast(102%);
+  width: 40px;
+}
+#search-products-form > #btn-search {
+  position: absolute;
+  background: var(--orange-color);
+  border: 1px solid transparent;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  top: 30px;
+  left: calc(25.6% + 597px); /*app. width and position of input */
+  width: 60px;
+  height: 48px;
+}
+#btn-close > img {
+  filter: invert(42%) sepia(77%) saturate(1183%) hue-rotate(357deg)
+    brightness(103%) contrast(103%);
+}
+#search-products-form > #btn-close {
+  width: 35px;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.preferences-bar {
+  height: 43px;
+  position: relative;
+  background: var(--navbar-bg-color);
+  display: flex;
+  align-items: center;
+}
+#welcome-msg {
+  position: absolute;
+  left: 92px;
+  color: var(--orange-color);
+}
+.preferences-bar > form {
+  position: absolute;
+  right: 99px;
+  display: flex;
+  width: 140px;
+  justify-content: space-between;
+}
+.pre-navbar {
+  height: 102px;
+  position: relative;
+}
+.pre-navbar > .company-logo-container {
+  position: absolute;
+  top: 50%;
+  left: 91px;
+}
+.pre-navbar > .search-icon-container {
+  position: absolute;
+  top: 52%;
+  right: 160px;
+}
+.pre-navbar .search-icon-container > img {
+  transform: scale(1.7);
+}
+.pre-navbar > .shopping-bag-container {
+  position: absolute;
+  top: 50%;
+  right: 91px;
+}
+.bag-img-container {
+  position: relative;
+  display: flex;
+  width: 60px;
+  height: 50px;
+}
+#shopping-bag {
+  width: 30px;
+  position: absolute;
+  top: -3px;
+  left: 24px;
+}
+.bag-items-count {
+  color: var(--orange-color);
+  position: absolute;
+  top: -15px;
+  left: 44px;
+}
+#navbar-links {
+  height: 60px;
+  background: var(--navbar-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar-links > a {
+  margin-right: 42px;
+  color: white;
+}
+
+/* mobile style */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .humberger-container {
+    display: block;
+    top: 50%;
+    left: 17px;
+  }
+  #navbar {
+    margin-bottom: 100px;
+  }
+
+  #search-products-form {
+    height: 154px;
+  }
+  #search-products-form > input {
+    left: 5%;
+    width: 297px;
+  }
+  #search-products-form > #btn-search {
+    left: calc(3% + 297px); /*app. width and position of input */
+  }
+  #search-products-form > #btn-close {
+    width: 30px;
+    top: 73%;
+    left: 40%;
+  }
+  .preferences-bar {
+    display: none;
+  }
+
+  .pre-navbar {
+    height: 102px;
+    position: relative;
+  }
+  .pre-navbar > .company-logo-container {
+    top: 50%;
+    left: 80px;
+  }
+  .pre-navbar > .search-icon-container {
+    top: 52%;
+    right: 70px;
+  }
+  .pre-navbar .search-icon-container > img {
+    transform: scale(1.7);
+  }
+  .pre-navbar > .shopping-bag-container {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+  }
+  .bag-items-count {
+    color: var(--orange-color);
+  }
+  #navbar-links {
+    height: 100vh;
+    width: 60%;
+    background: var(--navbar-bg-color);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #navbar-links > a {
+    margin: 0 0 32px 0;
+  }
+}

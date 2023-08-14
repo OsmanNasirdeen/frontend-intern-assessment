@@ -1,2 +1,37 @@
 :root {
+  --navbar-bg-color: #2f333a;
+  --sub-footer-bg-color: #212121;
+  --white: #ffffff;
+  --hero-bg-color: #f4f5f8;
+  --footer-bg-color: #2f333a;
+  --black-charcoal: #212121;
+  --orange-color: #ff7004;
+  --gray: #d9d9d9;
+  --cart-bg-color: #f5f5f5;
+  --light-violet: #1773b0;
+  --light-grey: #ebebeb;
+  --body-font: "Montsrrate", sans-serif;
+  --heading-font: "Raleway", sans-serif;
+  --casual-font: "Open Sans", sans-serif;
+  --fw-regular: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-bold: 700;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-30: 1.875rem;
+  --fs-32: 2rem;
+  --fs-72: 4.5rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
