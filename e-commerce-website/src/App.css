@@ -1,0 +1,44 @@
+@media screen and (min-width: 1024px) {
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1021px) {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--casual-font);
+}
+select:hover {
+  color: var(--orange-color);
+}
+select {
+  text-transform: capitalize;
+  color: var(--white);
+  background: transparent;
+  font-family: var(--heading-font);
+  font-size: var(--fs-14);
+  border: 1px solid transparent;
+}
+select:focus {
+  outline: 1px solid transparent;
+}
+option {
+  color: var(--orange-color);
+  height: 30px;
+  border-bottom: 1px solid red;
+}
+/* modal background */
+.modal-overlay {
+  z-index: 9;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.5);
+}
