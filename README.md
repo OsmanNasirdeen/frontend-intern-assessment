@@ -70,11 +70,11 @@ To clone and run this application, you'll need to first have Git and Node.js (np
 
 ## Clone this repository
 
-$ git clone https://github.com/OsmanNasirdeen/frontend-intern-assessment
+$ git clone https://github.com/OsmanNasirdeen/frontend-intern-assessment.git
 
 ## navigate into the repository
 
-$ cd ./frontend-intern-assessment
+$ cd ./frontend-intern-assessment/e-commerce-website
 
 ## Install dependencies
 
@@ -85,7 +85,8 @@ $ npm install
 $ npm run dev
 
 ```
-$ cd ./frontend-intern-assessment
+$ git clone https://github.com/OsmanNasirdeen/frontend-intern-assessment.git
+$ cd ./frontend-intern-assessment/e-commerce-website
 $ npm install
 $ npm run dev
 ```
